@@ -1,0 +1,16 @@
+md-sidenav {
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            list-style: none;
+            padding: 10px;
+            border-bottom: 1px #C1C1C1 solid;
+            color: #303030;
+            &:hover {
+                background: #F9F9F9;
+                cursor: pointer;
+            }
+        }
+    } 
+}   

@@ -1,0 +1,12 @@
+<md-sidenav-container>
+  <md-sidenav mode="side" opened="true" align="left">
+    <nav>
+      <ul>
+        <li *ngFor="let post of wallData" (click)="showPost(post)">
+            {{post.id}} | <small>{{post.title}}</small>
+        </li>
+      </ul>
+    </nav>
+  </md-sidenav>
+  <post [post]="chosenPost"></post>
+</md-sidenav-container>
